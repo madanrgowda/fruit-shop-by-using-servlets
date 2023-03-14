@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fruits Shop</title>
+<style type="text/css">
+h2{
+color: green;
+}
+.k{
+width:300px;
+	margin-left: 500px;
+	margin-top: 60px;
+	font-family: serif;
+	font-size: 20px;
+	
+box-shadow: 10px 10px 30px #c5f6fa;
+padding-left: 25px;
+padding-bottom: 25px;
+padding-top: 25px;
+border: 1px solid #c5f6fa;
+background-color:#e3fafc;
+}
+body{
+background-image: url("");
+}
+button{
+margin-top: 20px;
+}
+button:hover {
+background-color: #c5f6fa;
+font-weight: bold;	
+
+}
+.n{
+margin-left: 130px;
+}
+.m{
+margin-top: 10px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="k">
+<h2>Fruit Shop</h2>
+   <form action="shopping" method="post">
+  <label for="name">Customer Name:</label>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="mobile">Mobile Number:</label>
+  <input type="tel" id="mobile" name="mobile" required><br>
+
+  <label for="fruits">Choose Fruits:</label>
+  <br>
+  <input type="checkbox" id="apple" name="fruits" value="Apple">
+  <label for="apple">Apple (Rs. 100/kg)</label>
+  <input type="number" id="appleQty" name="appleQty" value="0" >
+  <br>
+
+  <input type="checkbox" id="orange" name="fruits" value="Orange">
+  <label for="orange">Orange (Rs. 60/kg)</label>
+  <input type="number" id="orangeQty" name="orangeQty" value="0" >
+  <br>
+
+  <input type="checkbox" id="pineapple" name="fruits" value="Pineapple">
+  <label for="pineapple">Pineapple (Rs. 50/kg)</label>
+  <input type="number" id="pineappleQty" name="pineappleQty" value="0">
+  <br>
+
+  <input type="checkbox" id="guava" name="fruits" value="Guava">
+  <label for="guava">Guava (Rs. 60/kg)</label>
+  <input type="number" id="guavaQty" name="guavaQty" value="0">
+  <br>
+
+  <input type="checkbox" id="grapes" name="fruits" value="Grapes">
+  <label for="grapes">Grapes (Rs. 40/kg)</label>
+  <input type="number" id="grapesQty" name="grapesQty" value="0">
+  <br>
+ <div class="m">
+  <input type="submit" value="Confirm" ><input type="reset" value="Cancel" class="n">
+  </div>
+</form>
+</div>
+   
+    
+</body>
+</html>
